@@ -9,6 +9,9 @@
 .container{
     margin: 0px 80px;
 }
+.un{
+    color:  #FF5959;
+}
 .orange{
     color: orange;
 }
@@ -29,23 +32,31 @@
     line-height: 22px;
     font-family: 'Poppins',sans-serif;
 }
+.header-section,
+.sec,
+.project,
+.project2,
+.last-section{
+    margin-bottom: 150px;
+}
 
 
 /* Header  */
 .header{
     display: flex;
+    align-items: center;
     gap: 50px;
 }
 .header .left h1{
     font-weight: 500;
-    margin-bottom: 35px;
-    margin-top: 50px;
     font-size: 50px;
 }
 
 .header .left .bd{
     border-left: 5px solid orange;
     padding-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -55,7 +66,6 @@
 }
 .header .right img{
     width: 426px;
-    height: 623px;
 }
 /* Section  */
 
@@ -98,14 +108,12 @@
 .project{
     display: flex;
     gap: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .project .right1 h1{
     font-weight: 500;
-    margin-top: 50px;
     font-size: 50px;
     font-family: 'Poppins',sans-serif;
-    margin-bottom: 30px;
 }
 .project .left1,
 .project .right1{
@@ -123,10 +131,8 @@
 }
 .project2 .left2 h1{
     font-weight: 500;
-    margin-top: 50px;
     font-size: 50px;
     font-family: 'Poppins',sans-serif;
-    margin-bottom: 30px;
 }
 .project2 .left2,
 .project2 .right2{
@@ -142,7 +148,7 @@
     font-family: 'Poppins',sans-serif;
     text-align: center;
     font-size: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .app{
     display: flex;
@@ -160,7 +166,8 @@
 }
 .app .pic img{
     width: 229px;
-    height: 471px;
+    margin: auto;
+    display: block;
 }
 
 /* Footer  */
